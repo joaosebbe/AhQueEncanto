@@ -1,0 +1,40 @@
+body{
+	background: url(../imagens/background_repetitivo.jpg);
+	max-width: 2000px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.bodypage{
+	margin-top: 150px;
+	padding: 50px;
+}
+
+#whatsapp{
+	width: 120px;
+	padding: 10px;
+	display: inline-block;
+}
+h1{
+	color: rgb(235, 150, 221);
+}
+h3{
+	margin-top: -23px;
+	color: rgb(235, 150, 221);
+}
+h6{
+	margin-top: -30px;
+	color: rgb(235, 150, 221)
+}
+.coracao{
+	width: 40px;
+}
+
+footer{
+	background-color: rgb(235, 150, 221);
+	height: 110px;
+	position:sticky;
+	max-width: 2000px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
