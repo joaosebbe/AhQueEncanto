@@ -6,4 +6,4 @@ Os produtos que ela faz e vende atualmente são biscoitos e bolos personalizados
 
 Este é um projeto apenas para portfólio (por enquanto) onde pratico o treinamento de minhas habilidades codificando e aprendo coisas novas cada vez em que avanço.
 
-Obs: Não tem data final para ficar pronto pois cada vez q vou adquirindo mais conhecimento vou adicionando novas funcionalidades e tecnologias.
+Obs: Não tem data final para ficar pronto pois cada vez que adquiro conhecimentos vou adicionando novas funcionalidades e tecnologias.
