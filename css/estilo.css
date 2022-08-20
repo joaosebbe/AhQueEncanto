@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	background: url(../imagens/background_repetitivo.jpg);
 	max-width: 2000px;
@@ -37,4 +40,62 @@ footer{
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px;
+}
+img{
+	max-width: 100%;
+}
+
+.imgcarousel img{
+	 -webkit-transition: all 0.7s ease;
+ 	transition: all 0.7s ease;
+	 filter: drop-shadow(2px 4px 8px);
+	 border-radius: 10px;
+ }
+.imgcarousel img:hover {
+	 -webkit-transform: scale(1.1);
+	 transform: scale(1.1);
+ }
+
+
+.bloco img {
+	filter: drop-shadow(2px 4px 8px);
+	height: 300px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+.imgcard{
+	display: flex;
+	justify-content: center;
+	transform-style: preserve-3d;
+	transition: all .5s;
+	position: relative;
+}
+
+.front-face,
+.back-face{
+	height: 300px;
+	width: 300px;
+	display: flex;
+	position: absolute;
+	border: solid rgb(235, 150, 221) 1px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.front-face{
+	transform: rotateY(180deg);
+}
+.back-face{
+	background-color: white; 
+	backface-visibility: hidden; 
+	opacity: 0.8;
+}
+
+.imgcard.flip{
+	transform: rotateY(180deg);
+}
+.legendasbolos{
+	color: rgb(235, 150, 221);
+	padding: 10px;
+	font-size: 22px;
 }
