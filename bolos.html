@@ -62,77 +62,88 @@
 
         <div class="row" style="background-color: white; height: 350px; border-radius: 20px; font-size: 30px; font-family: Candara; ">
             <div class="col-md-4" style="padding: 20px;">
-                <div class="row" >
-                    <div class="col-md-12" style="text-align: center; ">
-                        <div class="bloco">
+                <div class="row">
+                    <div class="col-md-12 imgcard">
+                        <div class="bloco front-face" style="text-align: center;">
                             <img src="imagens/bolos/bolo_arraial_do_ze.JPG" alt="">
-                        </div> 
+                        </div>
+                        <div class="back-face">
+                            <div class="legendasbolos">
+                                <span>Bolo Tema Festa Junina</span>
+                                <p>*Clique para ver o bolo*</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4" style="padding: 20px;">
-                <div class="row" >
-                    <div class="col-md-12" style="text-align: center; ">
-                        <div class="bloco">
+                <div class="row">
+                    <div class="col-md-12 imgcard">
+                        <div class="bloco front-face" style="text-align: center;">
                             <img src="imagens/bolos/bolo_confeiteiro.JPG" alt="">
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" style="padding: 20px;">
-                <div class="row" >
-                    <div class="col-md-12" style="text-align: center; ">
-                        <div class="bloco"><img src="imagens/bolos/bolo_feeling22.JPG" alt="" width="300px"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="row" style="margin-top: 50px;background-color: white; height: 350px; border-radius: 20px; font-size: 30px; font-family: Candara; ">
-
-            <div class="col-md-4" style="padding: 20px;">
-                <div class="row">
-                    <div class="col-md-12 imgcard">
-                        <div class="bloco front-face" style="text-align: center;">
-                            <img src="imagens/bolos/bolo_isabela.JPG" alt="" >
-                        </div>
                         <div class="back-face">
                             <div class="legendasbolos">
-                                <p>Olá</p>
+                                <span>Bolo Tema Confeiteiro</span>
+                                <p>*Clique para ver o bolo*</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4" style="padding: 20px;">
-                <div class="row" >
+                <div class="row">
                     <div class="col-md-12 imgcard">
                         <div class="bloco front-face" style="text-align: center;">
-                            <img src="imagens/bolos/bolo_mario.JPG" alt="" >
+                            <img src="imagens/bolos/bolo_feeling22.JPG" alt="">
                         </div>
                         <div class="back-face">
                             <div class="legendasbolos">
-                                <p>Olá</p>
+                                <span>Bolo Niver Bentô</span>
+                                <p>*Clique para ver o bolo*</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row"
+            style="margin-top: 50px;background-color: white; height: 350px; border-radius: 20px; font-size: 30px; font-family: Candara; ">
+
+            <div class="col-md-4" style="padding: 20px;">
+                <div class="row">
+                    <div class="col-md-12 imgcard">
+                        <div class="bloco front-face" style="text-align: center;">
+                            <img src="imagens/bolos/bolo_isabela.JPG" alt="">
+                        </div>
+                        <div class="back-face">
+                            <div class="legendasbolos">
+                                <span>Bolo Niver Isabela</span>
+                                <p>*Clique para ver o bolo*</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4" style="padding: 20px;">
-                <div class="row" >
-                    <div class="col-md-12" style="text-align: center; ">
-                        <div class="bloco"><img src="" alt=""></div>
-                    </div>
-                </div>
                 <div class="row">
-                    <div class="col-md-12" style="text-align: center; margin-top: 20px;">
-                        <b style="color: rgb(235, 150, 221);"></b>
+                    <div class="col-md-12 imgcard">
+                        <div class="bloco front-face" style="text-align: center;">
+                            <img src="imagens/bolos/bolo_mario.JPG" alt="">
+                        </div>
+                        <div class="back-face">
+                            <div class="legendasbolos">
+                                <span>Bolo Super Mario</span>
+                                <p>*Clique para ver o bolo*</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
 
         <div class="row" style="margin-top: 100px;background-color: rgb(235, 150, 221);">
             <footer>
@@ -155,19 +166,19 @@
     </div>
     <div style="float: right; position: fixed; bottom: 0px; right: 0px;">
         <a href="https://api.whatsapp.com/send?phone=5531985502358" target="_blank">
-            <img src="imagens/logo_whatsapp_branco.png" alt="Iniciar Conversa" id="whatsapp" >
+            <img src="imagens/logo_whatsapp_branco.png" alt="Iniciar Conversa" id="whatsapp">
         </a>
     </div>
 
-    
+
     <script>
         const cards = document.querySelectorAll(".imgcard")
-        function flipCard(){
+        function flipCard() {
             this.classList.toggle("flip");
         }
-        cards.forEach(card => card.addEventListener("click",flipCard));
+        cards.forEach(card => card.addEventListener("click", flipCard));
     </script>
-    
+
 
 
 
