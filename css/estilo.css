@@ -95,7 +95,7 @@ img{
 .back-face{
 	background-color: white; 
 	backface-visibility: hidden; 
-	opacity: 0.9;
+	opacity: 0.92;
 }
 
 .imgcard.flip{
@@ -116,8 +116,6 @@ img{
 	font-size: 18px;
 	font-weight: bold;
 	margin: 0 auto;
-	text-align: center;
-	margin-top: 80px;
 }
 .legendasbolos span{
 	background-color: rgba(235, 150, 221, 0.349); 
