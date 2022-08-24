@@ -17,18 +17,26 @@ body{
 	padding: 10px;
 	display: inline-block;
 }
-#apresentacao{
+#apresentacao,
+#segundaApresentacao{
 	text-align: center; 
 	font-family: Candara;
 	border: solid rgb(235, 150, 221) 3px;
 	border-radius: 20px;
 	background-color: rgba(235, 150, 221, 0.349);
 }
+#segundaApresentacao{
+	text-align: left;
+	padding: 20px;
+}
 h1{
 	color: rgb(255, 0, 212);
 }
 h3{
 	margin-top: -23px;
+	color: rgb(255, 0, 212);
+}
+h5{
 	color: rgb(255, 0, 212);
 }
 h6{
