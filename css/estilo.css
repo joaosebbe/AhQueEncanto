@@ -102,16 +102,16 @@ img{
 	transform: rotateY(180deg);
 }
 .legendasbolos{
-	color: white;
+	color: rgb(255, 0, 212);
 	padding: 10px;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	margin: 0 auto;
 	text-align: center;
 	display: inline-flex;
 }
 .legendasbolos p{
-	color: rgb(235, 150, 221);
+	color: rgb(255, 0, 212);
 	padding: 10px;
 	font-size: 18px;
 	font-weight: bold;
@@ -120,7 +120,8 @@ img{
 	margin-top: 80px;
 }
 .legendasbolos span{
-	background-color: rgb(235, 150, 221); 
+	background-color: rgba(235, 150, 221, 0.349); 
+	border: solid rgb(235, 150, 221) 3px;
 	padding: 5px;
 	border-radius: 10px;
 }
